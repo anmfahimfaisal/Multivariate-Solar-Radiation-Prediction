@@ -8,12 +8,16 @@ This repository is the official implementation of [Neural networks based multiva
 
 ## Results
 
+Performance comparison on different metrics
+
 | Model | MSE   | MAE   | RMSE  | MAPE(%) |
 |-------|-------|-------|-------|---------|
 | RNN   | 0.918 | 0.752 | 0.958 | 21.88   |
 | LSTM  | 1.31  | 0.890 | 1.14  | 24.94   |
 | GRU   | 0.795 | 0.682 | 0.891 | 19.28   |
 
+
+Performance comparison by station:
 
 | Station   | MSE   | MAE   | RMSE  | MAPE (%) |
 |-----------|-------|-------|-------|----------|
