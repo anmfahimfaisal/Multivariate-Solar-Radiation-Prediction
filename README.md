@@ -6,9 +6,23 @@ Multivariate Time-Series forecasting of Solar Radiation using RNN, LSTM and GRU.
 
 This repository is the official implementation of [Neural networks based multivariate time series forecasting of solar radiation using meteorological data of different cities of Bangladesh](https://www.sciencedirect.com/science/article/pii/S2590123022000354). 
 
+## Data
+
+|    **Parameter**    |               **Unit**               |
+|:-------------------:|:------------------------------------:|
+|      Unix Time      |             Second (sec)             |
+|      Day Length     |             Second (sec)             |
+| Maximum Temperature |          Degree Celsius (°C)         |
+| Minimum Temperature |          Degree Celsius (°C)         |
+|   Maximum Humidity  |            Percentage (%)            |
+|   Minimum Humidity  |            Percentage (%)            |
+|  Barometer Reading  |            Millibars (mb)            |
+|      Wind Speed     |       Kilometer per hour (km/h)      |
+|   Solar Radiation   | Kilo Watt per square meter (KWh/m−2) |
+
 ## Results
 
-Performance comparison on different metrics
+Performance comparison on different metrics:
 
 | Model | MSE   | MAE   | RMSE  | MAPE(%) |
 |-------|-------|-------|-------|---------|
